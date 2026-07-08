@@ -210,9 +210,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style='background: rgba(14, 165, 233, 0.05); padding: 16px; border-radius: 16px; border: 1px solid rgba(14, 165, 233, 0.15);'>
-        <span style='color: #64748B; font-weight: bold; font-size: 0.75rem; text-transform: uppercase;'>SYSTEM ARCHITECT:</span><br>
-        <span style='color: #38BDF8; font-weight: 700; font-size: 1rem;'>Easy Business Technology</span><br>
-        <span style='color: #94A3B8; font-size: 0.75rem; display:block; margin-top:2px;'>Home of Project, Research and Mentorship</span>
+        <span style='color: #64748B; font-weight: bold; font-size: 0.75rem; text-transform: uppercase;'>SYSTEM ARCHITECTURE:</span><br>
+        <span style='color: #38BDF8; font-weight: 700; font-size: 1rem;'>Update Abdullahi</span><br>
+        <span style='color: #94A3B8; font-size: 0.75rem; display:block; margin-top:2px;'>Produced by Easy Business Technology Home of Project, Research and Mentorship</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -412,7 +412,7 @@ st.markdown("""
     </div>
     
     <div class="premium-footer">
-        <strong>Developed by Easy Business Technology</strong><br>
-        <span style="color:#475569; font-size:0.8rem;">Home of Project, Research and Mentorship</span>
+        <strong>Developed by Update Abdullahi</strong><br>
+        <span style="color:#475569; font-size:0.8rem;">Sponsored by Easy Business Technology</span>
     </div>
 """, unsafe_allow_html=True)
