@@ -1,5 +1,5 @@
 """
-Disease Classification System - CEO-Level Dark Glassmorphic Medical Dashboard
+Disease Classification System - CEO-Level Dark Glassmorphism Medical Dashboard
 Developed by: Easy Business Technology (Home of Project, Research and Mentorship)
 """
 
@@ -95,23 +95,21 @@ st.markdown("""
         animation: subtleFadeUp 0.5s ease-out forwards, subtleGlow 4s infinite ease-in-out;
     }
 
-    /* Highly Responsive Flex-Grid Action Buttons for Production layouts */
-    div[data-testid="stForm"]  .stButton > button {
-        width: 100% !important;
+    /* Round Interactive Neon Branding Buttons */
+    .stButton > button {
         border-radius: 40px !important;
-        padding: 0.8rem 1.5rem !important;
+        padding: 0.75rem 2.5rem !important;
         font-weight: 600 !important;
         font-size: 0.95rem !important;
         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-        margin-bottom: 10px;
     }
-    div[data-testid="stForm"]  .stButton > button[data-testid="baseButton-secondary"] {
+    .stButton > button[data-testid="baseButton-secondary"] {
         background: linear-gradient(135deg, #0EA5E9 0%, #2563EB 100%) !important;
         color: #FFFFFF !important;
         border: none !important;
         box-shadow: 0 4px 20px rgba(14, 165, 233, 0.35);
     }
-    div[data-testid="stForm"]  .stButton > button[data-testid="baseButton-secondary"]:hover {
+    .stButton > button[data-testid="baseButton-secondary"]:hover {
         transform: translateY(-2px);
         box-shadow: 0 8px 30px rgba(14, 165, 233, 0.55);
     }
@@ -294,11 +292,11 @@ with col_form:
 
         st.markdown("<br><hr style='border-color: rgba(255,255,255,0.05);'><br>", unsafe_allow_html=True)
         
-        # Fully Responsive Fluid Button Row Setup
-        btn_col1, btn_col2 = st.columns([1, 1])
-        with btn_col1:
+        # Premium Inline Dashboard Controls Alignment
+        b1, b2, _ = st.columns([1.4, 1, 1.3])
+        with b1:
             submit_btn = st.form_submit_button(label="Analyze Baseline Diagnostics")
-        with btn_col2:
+        with b2:
             clear_btn = st.form_submit_button(label="Flush Data Fields")
 
     if clear_btn:
@@ -381,7 +379,7 @@ with col_results:
         
         st.success("📊 Classification sequence executed safely against parameters.")
         
-        # Display Probability Progress Cards 
+        # Display Premium Probability Progress Cards 
         st.markdown("<p style='font-weight: 600; margin-top: 2rem; color:#F1F5F9; font-size: 1.1rem;'>Full Diagnostics Probability Variance Profiles:</p>", unsafe_allow_html=True)
         
         for name, probability_value in sorted(probability_matrix_map.items(), key=lambda elem: elem[1], reverse=True):
@@ -412,8 +410,7 @@ st.markdown("""
     </div>
     
     <div class="premium-footer">
-        <strong>Developed by Update Abdullahi
-        </strong><br>
-        <span style="color:#475569; font-size:0.8rem;">Sponsored by Easy Business Technology Nigeria LTD.</span>
+        <strong>Developed by Easy Business Technology</strong><br>
+        <span style="color:#475569; font-size:0.8rem;">Home of Project, Research and Mentorship</span>
     </div>
 """, unsafe_allow_html=True)
